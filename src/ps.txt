@@ -1,0 +1,23 @@
+Response: [{
+	id: 1,
+	name: “Air cooler”,
+	manufacturer: “Panasonic”,
+	price: 18000
+},
+{
+	id: 2,
+	name: “Washing Machine”,
+	manufacturer: “LG”,
+	price: 12000
+},
+{
+	id: 3,
+	name: “Fan”,
+	manufacturer: “Crompton”,
+	price: 2500
+}]
+
+
+Create a react app to render the products from the constants file in a web application, also add a search bar to facilitate searching for products by their name. 
+Create a cart icon with a badge that will show the number of items added to the cart. 
+Create a buy now button, that will generate a modal on click, which consists of the products added to the cart along with the prices of individual products. And has two buttons at the end, i.e “Pay” and “Cancel”
